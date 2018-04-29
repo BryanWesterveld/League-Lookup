@@ -1,9 +1,11 @@
 import React, { Component } from "react";
-import { API_KEY } from "../hidden/api_keys";
+
+import SearchBar from "./search_bar";
+
 
 class App extends Component {
   render() {
-    return <div>Basic component, key is: {API_KEY}</div>;
+    return <SearchBar history={this.props.history} />
   }
 }
 
