@@ -2,6 +2,7 @@
 
 # api authentication
 /hidden
+/hidden/api_keys.js
 
 # dependencies
 /node_modules
