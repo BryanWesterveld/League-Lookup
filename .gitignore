@@ -1,8 +1,8 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
 # api authentication
-/hidden
-/hidden/api_keys.js
+src/hidden
+src/hidden/api_keys.js
 
 # dependencies
 /node_modules
