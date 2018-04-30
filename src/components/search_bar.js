@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { fetchId } from "../actions/index";
 import { connect } from "react-redux";
 
 class SearchBar extends Component {
@@ -18,7 +17,6 @@ class SearchBar extends Component {
 
   onFormSubmit(event) {
     event.preventDefault();
-    //this.props.fetchId(this.state.name, this.state.server);
     const path = `/${this.state.server}/summoner/${this.state.name}`;
     this.props.history.push(path);
     this.setState({name: ""});
@@ -44,4 +42,4 @@ class SearchBar extends Component {
   }
 }
 
-export default connect(null, {fetchId})(SearchBar);
+export default (SearchBar);
