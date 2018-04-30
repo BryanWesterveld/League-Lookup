@@ -6,8 +6,8 @@ all matches for a user, one must now fetch both basic and more detailed
 information match for match. This makes it extremely hard to show a list of
 matches without hurting loading times.
 
-Even though this project was never finished it still provided me with a lot of
-new knowledge. Therefore I will not delete this repository just yet and use it
+Even though this project was never finished it still provided me with new knowledge.
+Therefore I will not delete this repository just yet and use it
 to list some of the things I learned, so I can look back at them in the future.
 
 - If you do not want your api key floating around github it is possible to
